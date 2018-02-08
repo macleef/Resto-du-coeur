@@ -10,7 +10,6 @@
 .hasChildren li {
   color:white;
   background-color: #4A5475;
-  display: none;
 }
 .noChildren {
 
@@ -25,4 +24,3 @@
   color:white;
   text-decoration: none;
 }
-
