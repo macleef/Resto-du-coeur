@@ -24,13 +24,14 @@
                                 <css jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
                           jcr:primaryType="jnt:cssFolder">
                                     <_x0030_1web.css jcr:primaryType="jnt:cssFile"/>
+                                    <benevolat.css jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:cssFile"/>
                                     <main.css jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:cssFile"/>
                                 </css>
-                                <jnt_template jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                                <jnt_template jcr:mixinTypes="jmix:hasExternalProviderExtension"
                                    jcr:primaryType="jnt:nodeTypeFolder">
-                                    <html jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                                    <html jcr:mixinTypes="jmix:hasExternalProviderExtension"
                               jcr:primaryType="jnt:templateTypeFolder">
-                                        <template.restostemplate.jsp jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:viewFile"/>
+                                        <template.restostemplate.jsp jcr:primaryType="jnt:viewFile"/>
                                     </html>
                                 </jnt_template>
                             </resources>
@@ -40,8 +41,8 @@
                 
                 <portlets jcr:primaryType="jnt:portletFolder"/>
                 <files jcr:primaryType="jnt:folder">
-                    <banniere.PNG j:height="251"
-                          j:width="2000"
+                    <banniere.PNG j:height="150"
+                          j:width="1500"
                           jcr:mixinTypes="jmix:image"
                           jcr:primaryType="jnt:file">
                         <jcr:content jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>

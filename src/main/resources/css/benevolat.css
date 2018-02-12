@@ -1,4 +1,4 @@
-.hasChildren {
+#benevolat .hasChildren {
   color:white;
   background-color: #4A5475;
   display: block;
@@ -7,12 +7,10 @@
   
 }
 
-.hasChildren li {
+#benevolat .hasChildren li {
   color:white;
   background-color: #4A5475;
-}
-.noChildren {
-
+  display: block;
 }
 
 .hasChildren a:link {
