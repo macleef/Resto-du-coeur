@@ -19,13 +19,13 @@
                           jcr:primaryType="jnt:folder">
                                 <repository.xml jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:xmlFile"/>
                             </import>
-                            <resources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                            <resources jcr:mixinTypes="jmix:hasExternalProviderExtension"
                              jcr:primaryType="jnt:folder">
-                                <css jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                                <css jcr:mixinTypes="jmix:hasExternalProviderExtension"
                           jcr:primaryType="jnt:cssFolder">
                                     <_x0030_1web.css jcr:primaryType="jnt:cssFile"/>
-                                    <benevolat.css jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:cssFile"/>
-                                    <main.css jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:cssFile"/>
+                                    <benevolat.css jcr:primaryType="jnt:cssFile"/>
+                                    <main.css jcr:primaryType="jnt:cssFile"/>
                                 </css>
                                 <jnt_template jcr:mixinTypes="jmix:hasExternalProviderExtension"
                                    jcr:primaryType="jnt:nodeTypeFolder">
